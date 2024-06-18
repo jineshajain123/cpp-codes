@@ -1,4 +1,4 @@
-//constructor
+//constructor- same name but different in parameter
 #include<iostream>
 using namespace std;
 class demo

@@ -26,11 +26,11 @@ class mathstudent : public student
     int chemistry;
     int physics;
     public:
-    void setmathdata(int s1,int s2,int s3)
+    void setmathdata(int m1,int m2,int m3)
     {
-        maths=s1;
-        chemistry=s2;
-        physics=s3;
+        maths=m1;
+        chemistry=m2;
+        physics=m3;
     }
     
     void displaymath()
@@ -93,12 +93,12 @@ class accountstudent : public student
 
 int main()
 {
+    //student s1,s2;
     
-    
-    mathstudent s1,s2,s3;
-    s1.setdata("jini",1001);
-    s1.setmathdata(66,78,85);
-    s1.displaymath();
+    mathstudent m1,m2,m3;
+    m1.setdata("jini",1001);
+    m1.setmathdata(66,78,85);
+    m1.displaymath();
 
     biostudent b1,b2,b3;
     b1.setdata("salo",1020);
